@@ -61,6 +61,7 @@ export default {
   data() {
     return {
       dialogVisible: false,
+      // >>> Don't touch me - defaultConfig
       defaultConfig: {
         src: "",
         // fit: "",
@@ -68,6 +69,7 @@ export default {
         maxWidth: "",
         maxHeight: ""
       }
+      // <<< Don't touch me - defaultConfig
     };
   },
   methods: {

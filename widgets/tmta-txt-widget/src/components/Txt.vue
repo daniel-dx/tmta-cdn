@@ -19,13 +19,15 @@ export default {
   },
   data() {
     return {
+      // >>> Don't touch me - defaultConfig
       defaultConfig: {
-        value: "Hello Daniel",
+        value: "",
         html: "",
         color: "",
         fontSize: 14,
         bold: false
       }
+      // <<< Don't touch me - defaultConfig
     };
   }
 };

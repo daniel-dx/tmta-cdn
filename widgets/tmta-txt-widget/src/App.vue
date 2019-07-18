@@ -6,11 +6,7 @@
       <Txt :config="config"/>
     </div>
     
-    <ncform
-      :form-schema="configSchema"
-      v-model="config"
-      form-name="configForm"
-    ></ncform>
+    <CompConfigPanel v-model="config" :data-schema="dataSchema"/>
   </div>
 </template>
 
@@ -26,20 +22,20 @@
 </style>
 
 <script>
+import { CompConfigPanel } from "tmta-core";
 import Txt from "./components/Txt.vue";
-import configSchema from "../config-schema.js";
+import dataSchema from "../data-schema.js";
 
 export default {
   name: "app",
   components: {
+    CompConfigPanel,
     Txt
   },
   data() {
     return {
-      config: {
-        msg: "Hello Daniel"
-      },
-      configSchema
+      config: {},
+      dataSchema
     };
   }
 };
