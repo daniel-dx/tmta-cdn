@@ -23,6 +23,7 @@ export default {
   i18nData: {},
   data() {
     return {
+      // >>> Don't touch me - defaultConfig
       defaultConfig: {
         label: "Button",
         size: "small",
@@ -32,6 +33,7 @@ export default {
         circle: false,
         icon: ""
       }
+      // <<< Don't touch me - defaultConfig
     };
   }
 };

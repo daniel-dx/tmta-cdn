@@ -12,7 +12,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "tmta-core": "0.0.9"
+    "tmta-core": "^0.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
