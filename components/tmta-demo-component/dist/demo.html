@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<title>TmtaDemoComponent demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./TmtaDemoComponent.umd.js"></script>
+<link rel="stylesheet" href="./TmtaDemoComponent.css">
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: TmtaDemoComponent
+  }
+}).$mount('#app')
+</script>

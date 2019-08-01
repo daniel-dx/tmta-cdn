@@ -26,8 +26,8 @@ export default {
     html: {
       type: "string",
       description: {
-        en: "Html value. The priority is lower than the plain text content, which is only valid when the value is empty",
-        zh_cn: "Html内容。优先级低于value纯文本内容，即当value值为空时才有效"
+        en: "Html value",
+        zh_cn: "Html内容"
       },
       enum: [
         {
@@ -63,7 +63,7 @@ export default {
       },
       enum: [
         {
-          value: 14,
+          value: "14",
           desc: {
             en: "Just a demo value",
             zh_cn: "仅仅是演示的数据"

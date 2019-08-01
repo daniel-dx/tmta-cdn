@@ -1,19 +1,18 @@
 {
-  "name": "tmta-btn-widget",
+  "name": "tmta-list-s1-comp",
   "version": "1.0.0",
   "private": false,
-  "tmtaType": "widget",
+  "tmtaType": "component",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name TmtaBtnWidget src/components/Btn.vue",
+    "build": "vue-cli-service build --target lib --name TmtaListS1Comp src/components/ListS1.vue",
     "lint": "vue-cli-service lint",
-    "check": "npm-check -u -p",
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "tmta-core": "^0.1.3"
+    "tmta-core": "^0.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.2.0",
@@ -29,7 +28,6 @@
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.0",
     "node-sass": "^4.9.0",
-    "npm-check": "^5.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.6.10"
   },
@@ -46,12 +44,13 @@
       "git add"
     ]
   },
-  "main": "dist/tmtaBtnWidget.umd.min.js",
-  "description": "button widget",
+  "main": "dist/tmtaListS1Comp.umd.min.js",
+  "description": "table tmta component",
   "author": "daniel.xiao",
   "keywords": [
-    "button",
-    "widget",
-    "tmta"
+    "tmta",
+    "list",
+    "table",
+    "component"
   ]
 }
